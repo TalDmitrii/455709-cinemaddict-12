@@ -123,8 +123,8 @@ render(filmList, createLoadMoreButtonTemplate(), `beforeend`);
 render(mainContainer, createFilmExtraListTemplate(), `beforeend`);
 render(mainContainer, createFilmExtraListTemplate(), `beforeend`);
 
-const extraLists = mainContainer.querySelectorAll(`.films-list--extra`);
-const extraListsArray = Array.prototype.slice.call(extraLists);
+// const extraLists = mainContainer.querySelectorAll(`.films-list--extra`);
+// const extraListsArray = Array.prototype.slice.call(extraLists);
 
 // extraListsArray.forEach(element => {
 //   let container = element.querySelector(`.films-list__container`);
