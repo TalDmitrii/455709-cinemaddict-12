@@ -125,14 +125,12 @@ render(mainContainer, createFilmExtraListTemplate(), `beforeend`);
 
 const extraLists = mainContainer.querySelectorAll(`.films-list--extra`);
 const extraListsArray = Array.prototype.slice.call(extraLists);
-console.log(extraListsArray);
 
-extraListsArray.forEach(element => {
-  let container = element.querySelector(`.films-list__container`);
-  
-  for (let i = 0; i < 2; i++) {
-    render(container, createFilmTemplate(), `beforeend`);
-  }
-});
+// extraListsArray.forEach(element => {
+//   let container = element.querySelector(`.films-list__container`);
+//   for (let i = 0; i < 2; i++) {
+//     render(container, createFilmTemplate(), `beforeend`);
+//   }
+// });
 
 render(siteFooterElement, createFooterStatisticsTemplate(), `beforeend`);
