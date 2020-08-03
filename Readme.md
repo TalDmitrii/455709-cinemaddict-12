@@ -1,7 +1,7 @@
 # Личный проект «Киноман» [![Build status][travis-image]][travis-url]
 
 * Студент: [Дмитрий Талицких](https://up.htmlacademy.ru/ecmascript/12/user/455709).
-* Наставник: `Неизвестно`.
+* Наставник: Пока без наставника.
 
 ---
 
